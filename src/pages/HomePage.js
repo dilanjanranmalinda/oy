@@ -1,9 +1,10 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
 import image1 from '../assets/image/b7.jpg';
-import image2 from '../assets/image/b5.jpg';
+import image2 from '../assets/image/b4.jpg';
 import image3 from '../assets/image/c3.jpg';
 import image4 from '../assets/image/b2.jpg';
+import image5 from '../assets/image/c2.jpg';
 
 
 const sections = [
@@ -43,19 +44,19 @@ const sections = [
     type: "image",
     imageUrl: image4,
     alt: "Get Set",
-    overlayText: "acive in target without dought.",
+    overlayText: "Crafting quality, empowering brands worldwide..",
   },
   {
     type: "text",
     title: "Why partner with us",
     description:
-      "We specialize in turning ideas into quality garments, globally sourcing premium materials, and partnering with ethical suppliers to ensure responsible production. With a focus on quality assurance, we maintain the highest standards at every stage and provide seamless, on-time delivery with hassle-free logistics",
+      "We bring expertise in private label production, leveraging a global network to deliver high-quality products at competitive prices. Our commitment to sustainability ensures ethical sourcing and environmentally responsible practices, all while maintaining complete transparency to meet your unique goals.",
   },
   {
     type: "image",
-    imageUrl: image4,
+    imageUrl: image5,
     alt: "Get Set",
-    overlayText: "acive in target without dought.",
+    overlayText: "Partner with us for innovation, quality, and trust—your success is our priority.",
   },
   {
     type: "text",
