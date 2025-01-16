@@ -1,16 +1,21 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
+import image1 from '../assets/image/b7.jpg';
+import image2 from '../assets/image/b5.jpg';
+import image3 from '../assets/image/c3.jpg';
+import image4 from '../assets/image/b2.jpg';
+
 
 const sections = [
   {
     type: "text",
     title: "About Us",
     description:
-      "Welcome to StyleCo, where innovation meets fashion. We craft timeless designs that blend comfort and elegance, setting new trends in sustainable apparel.",
+      "OY Exports Pvt Ltd specializes in manufacturing premium garments for private labels, proudly serving clients worldwide from our headquarters in Sri Lanka. With a branch in Bangladesh and a strategic partnership with Unison Apparel Sourcing BD, we connect seamlessly with global buyers and suppliers. Our expertise spans end-to-end product development, helping businesses bring their unique visions to life. Whether launching a new brand or expanding your product line, our dedicated team ensures exceptional support every step of the way..",
   },
   {
     type: "image",
-    imageUrl: "https://via.assets.so/album.jpg?w=1280&h=720&id=1",
+    imageUrl: image1,
 
     alt: "Clothing Store",
     overlayText: "Crafted for Comfort, Designed for Style",
@@ -23,15 +28,46 @@ const sections = [
   },
   {
     type: "image",
-    imageUrl: "https://via.assets.so/album.jpg?w=1280&h=720",
+    imageUrl: image2,
     alt: "Sustainable Fashion",
     overlayText: "Sustainably Made, Timelessly Worn",
+    
+  },
+  {
+    type: "text",
+    title: "What we do",
+    description:
+      "We specialize in turning ideas into quality garments, globally sourcing premium materials, and partnering with ethical suppliers to ensure responsible production. With a focus on quality assurance, we maintain the highest standards at every stage and provide seamless, on-time delivery with hassle-free logistics",
+  },
+  {
+    type: "image",
+    imageUrl: image4,
+    alt: "Get Set",
+    overlayText: "acive in target without dought.",
+  },
+  {
+    type: "text",
+    title: "Why partner with us",
+    description:
+      "We specialize in turning ideas into quality garments, globally sourcing premium materials, and partnering with ethical suppliers to ensure responsible production. With a focus on quality assurance, we maintain the highest standards at every stage and provide seamless, on-time delivery with hassle-free logistics",
+  },
+  {
+    type: "image",
+    imageUrl: image4,
+    alt: "Get Set",
+    overlayText: "acive in target without dought.",
   },
   {
     type: "text",
     title: "Contact Us",
     description:
       "Have questions or want to learn more? Get in touch with us, and let's create something amazing together.",
+  },
+  {
+    type: "image",
+    imageUrl: image3,
+    alt: "Get Set",
+    overlayText: "Passion and dedication drive us towards achieving remarkable results.",
   },
 ];
 

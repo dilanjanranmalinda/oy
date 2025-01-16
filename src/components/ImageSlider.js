@@ -1,18 +1,21 @@
 import React from "react";
 import { Carousel } from "@material-tailwind/react";
+import image1 from '../assets/image/a1.jpg';
+import image2 from '../assets/image/a2.jpg';
+import image3 from '../assets/image/a3.jpg';
 
 const images = [
   {
-    src: "https://picsum.photos/1920/1080?modern",
-    alt: "Nature Image 1",
+    src: image1 ,
+    alt: "Earth-Friendly Fabrics for a Better Tomorrow.",
   },
   {
-    src: "https://picsum.photos/1920/1080?nature",
-    alt: "City Image 2",
+    src: image2,
+    alt: "From City Streets to Mountain Peaks—We've Got You Covered.",
   },
   {
-    src: "https://picsum.photos/1920/1080?clothes",
-    alt: "Technology Image 3",
+    src: image3,
+    alt: "Indulge in the Luxury of a Perfect Night's Sleep.",
   },
 ];
 
