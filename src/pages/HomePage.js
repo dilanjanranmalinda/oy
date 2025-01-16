@@ -5,6 +5,8 @@ import image2 from '../assets/image/b4.jpg';
 import image3 from '../assets/image/c3.jpg';
 import image4 from '../assets/image/b2.jpg';
 import image5 from '../assets/image/c2.jpg';
+import Navbar from "../components/Navbar";
+
 
 
 const sections = [
@@ -76,6 +78,7 @@ const HomePage = () => {
   return (
     <div>
       {/* Image Slider */}
+      <Navbar/>
       <ImageSlider />
 
       {/* Dynamic Sections */}
