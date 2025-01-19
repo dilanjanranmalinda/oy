@@ -1,8 +1,9 @@
 import "./App.css";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
+import HomePage from "./pages/home/HomePage";
+import AboutPage from "./pages/about/AboutPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavbarDefault from "./components/Navbar";
+import NavbarDefault from "./templates/Navbar";
+import Footer from "./templates/Footer";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/know-us" element={<AboutPage />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
