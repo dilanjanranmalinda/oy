@@ -10,7 +10,7 @@ const Footer = () => {
         </Typography>
 
         <Typography variant="paragraph" className="text-sm">
-          Developed by <span className="font-semibold">ITrans</span>
+          Developed by <span className="font-semibold">KDW</span>
         </Typography>
       </div>
     </footer>
