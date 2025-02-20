@@ -31,8 +31,8 @@ const cards = [
 
 const PinBoard = () => {
   return (
-    <div className="p-6 bg-primary-800 min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-3xl md:text-4xl font-bold uppercase mb-8 text-white">
+    <div className="pt-16 p-6 bg-primary-800 min-h-screen flex flex-col items-center justify-center">
+      <h1 className="text-3xl md:text-4xl font-bold uppercase mb-12 text-white">
         WHAT WE DO
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">

@@ -8,9 +8,11 @@ import React from "react";
 
 const JoinUs = () => {
   return (
-    <div class="flex flex-col items-center bg-primary-700 py-12 px-4 sm:px-6 lg:px-8 justify-center">
+    <div class="pt-16 flex flex-col items-center bg-primary-700 py-12 px-4 sm:px-6 lg:px-8 justify-center">
       <div class="max-w-7xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-white">WHY PARTNER WITH US</h2>
+        <h2 class="text-3xl font-extrabold text-white pb-5">
+          WHY PARTNER WITH US
+        </h2>
         <p class="mt-4 text-lg text-gray-100 text-justify max-w-6xl">
           At OY Exports Pvt Ltd, we bring a unique combination of expertise,
           innovation, and dedication to every project. With years of experience
