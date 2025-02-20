@@ -30,6 +30,11 @@ const ImageSlider = ({ images, single }) => {
                   image?.textColor +
                   " lg:text-3xl  text-xl uppercase font-extrabold"
                 }
+                style={
+                  single
+                    ? { textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }
+                    : { textShadow: "4px 4px 2px rgba(0, 0, 0, 0.8)" }
+                }
               >
                 {image.alt}
               </Typography>

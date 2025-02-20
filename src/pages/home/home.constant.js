@@ -6,7 +6,7 @@ import v1 from "../../assets/video/hp1.mp4";
 import image2 from "../../assets/image/si5.jpg";
 import image3 from "../../assets/image/si3.jpg";
 import image4 from "../../assets/image/b2.jpg";
-import image5 from "../../assets/image/si2.jpg";
+import image5 from "../../assets/image/si6.jpg";
 
 export const sections = [
   {
@@ -33,7 +33,7 @@ export const sections = [
     type: "image",
     src: image2,
     alt: "Sustainably Made, Timelessly Worn",
-    textColor: "text-primary-600",
+    textColor: "text-white",
   },
   {
     type: "text",
@@ -46,7 +46,7 @@ export const sections = [
   {
     type: "image",
     src: image4,
-    alt: "Crafting quality, empowering brands worldwide..",
+    alt: "Crafting quality, empowering brands worldwide",
     textColor: "text-white",
   },
   {
@@ -54,44 +54,44 @@ export const sections = [
     title: "Collections",
     path: "collections",
     description:
-      "Discover our exclusive collections for every season. From casual wear to high fashion, we cater to all your style needs.",
+      "Explore our exclusive collections designed to complement every season and occasion. Whether you're looking for effortless casual wear, sophisticated business attire, or head-turning high fashion pieces, we have something for everyone. Our carefully curated styles blend quality, comfort, and trendsetting designs to ensure you always look and feel your best. Elevate your wardrobe with us and embrace fashion that speaks to your unique style.",
   },
   {
     type: "image",
     src: image5,
-    alt: "Partner with us for innovation, quality, and trust—your success is our priority.",
-    textColor: "text-primary-600",
+    alt: "Partner with us for innovation, quality, and trust—your success is our priority",
+    textColor: "text-white",
   },
   {
     type: "text",
     title: "Reach Us",
     path: "reach-us",
     description:
-      "Have questions or want to learn more? Get in touch with us, and let's create something amazing together.",
+      "Have questions about our collections or want to learn more about our styles and designs? We’re here to help! Whether you're looking for the perfect outfit, need assistance with sizing, or have inquiries about custom orders, our team is ready to assist you. Get in touch with us today, and let’s create something amazing together—because great fashion starts with a great conversation!",
   },
   {
     type: "image",
     src: image3,
     textColor: "text-white",
 
-    alt: "Passion and dedication drive us towards achieving remarkable results.",
+    alt: "Passion and dedication drive us towards achieving remarkable results",
   },
 ];
 
 export const sliderImages = [
   {
     src: s1,
-    alt: "Earth-Friendly Fabrics for a Better Tomorrow.",
+    alt: "Earth-Friendly Fabrics for a Better Tomorrow",
     textColor: "text-primary-200",
   },
   {
     src: s2,
-    alt: "From City Streets to Mountain Peaks—We've Got You Covered.",
+    alt: "From City Streets to Mountain Peaks—We've Got You Covered",
     textColor: "text-primary-200",
   },
   {
     src: s3,
-    alt: "Indulge in the Luxury of a Perfect Night's Sleep.",
+    alt: "Indulge in the Luxury of a Perfect Night's Sleep",
     textColor: "text-primary-200",
   },
 ];

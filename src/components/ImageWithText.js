@@ -22,7 +22,7 @@ const ImageWithText = ({ image }) => {
               <Typography
                 className={
                   image?.textColor +
-                  " lg:text-lg font-extrabold text-xs uppercase "
+                  " lg:text-lg md:text-sm font-extrabold text-xs uppercase "
                 }
               >
                 {image?.title}
@@ -32,7 +32,7 @@ const ImageWithText = ({ image }) => {
               <Typography
                 className={
                   image?.textColor +
-                  " md:text-sm text-[8px]  uppercase text-justify"
+                  " lg:text-lg md:text-sm text-[8px] text-justify"
                 }
               >
                 {image?.alt}

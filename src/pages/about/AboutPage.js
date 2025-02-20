@@ -1,5 +1,7 @@
 import ImageWithText from "../../components/ImageWithText";
 import { sections } from "./about.constant";
+import JoinUs from "./JoinUs";
+import PinBoard from "./PinBoard";
 import StoryImage from "./StoryImage";
 
 const AboutPage = () => {
@@ -15,6 +17,8 @@ const AboutPage = () => {
 
         return null;
       })}
+      <PinBoard />
+      <JoinUs />
     </div>
   );
 };
