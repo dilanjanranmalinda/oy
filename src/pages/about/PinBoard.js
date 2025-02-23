@@ -31,15 +31,15 @@ const cards = [
 
 const PinBoard = () => {
   return (
-    <div className="pt-16 p-6 bg-primary-800 min-h-screen flex flex-col items-center justify-center">
+    <div className=" pt-16 py-8  bg-primary-800 min-h-screen flex flex-col items-center justify-center">
       <h1 className="text-3xl md:text-4xl font-bold uppercase mb-12 text-white">
         WHAT WE DO
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
         {cards.map((card, index) => (
           <Card
             key={index}
-            className="bg-primary-700 shadow-lg p-4 border-l-4 border-white flex flex-col h-full"
+            className="bg-primary-700 shadow-lg  border-l-4 border-white flex flex-col h-full"
           >
             <CardBody className="flex flex-col flex-grow">
               <h2 className="text-lg font-bold uppercase text-primary-100">

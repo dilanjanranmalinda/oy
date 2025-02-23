@@ -33,7 +33,7 @@ const JoinUs = () => {
       </div>
 
       <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl">
-        <div class="bg-primary-800 shadow-md rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
+        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
           <MagnifyingGlassIcon className="h-16 w-16 text-green-500 mb-4" />
           <h3 class="text-lg font-semibold text-primary-200">
             Expertise in Private Label Production
@@ -45,7 +45,7 @@ const JoinUs = () => {
           </p>
         </div>
 
-        <div class="bg-primary-800 shadow-md rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
+        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
           <GlobeAltIcon className="h-16 w-16 text-blue-500 mb-4" />
 
           <h3 class="text-lg font-semibold text-primary-200">Global Reach</h3>
@@ -56,7 +56,7 @@ const JoinUs = () => {
           </p>
         </div>
 
-        <div class="bg-primary-800 shadow-md rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
+        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
           <ArrowPathIcon className="h-16 w-16 text-yellow-500 mb-4" />
 
           <h3 class="text-lg font-semibold text-primary-200">
@@ -69,7 +69,7 @@ const JoinUs = () => {
           </p>
         </div>
 
-        <div class="bg-primary-800 shadow-md rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
+        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
           <DocumentTextIcon className="h-16 w-16 text-purple-500 mb-4" />
 
           <h3 class="text-lg font-semibold text-primary-200 ">
