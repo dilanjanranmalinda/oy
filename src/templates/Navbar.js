@@ -23,7 +23,7 @@ export function NavbarDefault() {
           KNOW US
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link
           to="/what-we-do"
           className="text-base font-medium transition hover:text-blue-500"
@@ -38,7 +38,7 @@ export function NavbarDefault() {
         >
           WHY JOIN US
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link
           to="/collections"
@@ -61,8 +61,8 @@ export function NavbarDefault() {
 
   return (
     <Navbar className="bg-primary-800 border-none sticky top-0 z-50 w-full max-w-[100vw] rounded-none">
-      <div className="container  flex items-center  justify-between max-w-2xl mx-auto">
-        <div className="flex items-center gap-4">
+      <div className="container  flex items-center  justify-center max-w-2xl mx-auto">
+        <div className="flex items-center gap-4 mr-5">
           <Link to="/">
             <img src={image1} alt="Logo" className="h-10" />
           </Link>
