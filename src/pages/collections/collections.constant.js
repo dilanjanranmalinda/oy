@@ -1,5 +1,4 @@
 import sc1 from "../../assets/image/collections/school/sc1.jpg";
-import sc2 from "../../assets/image/collections/school/sc2.jpg";
 import sc3 from "../../assets/image/collections/school/sc3.jpg";
 import sc4 from "../../assets/image/collections/school/sc4.jpg";
 import sc5 from "../../assets/image/collections/school/sc5.jpg";
@@ -7,6 +6,29 @@ import sc6 from "../../assets/image/collections/school/sc6.jpg";
 import sc7 from "../../assets/image/collections/school/sc7.jpg";
 import sc8 from "../../assets/image/collections/school/sc8.jpg";
 import sc9 from "../../assets/image/collections/school/sc9.jpg";
+
+import sl1 from "../../assets/image/collections/sleepwear/sl1.jpg";
+import sl2 from "../../assets/image/collections/sleepwear/sl2.jpg";
+import sl3 from "../../assets/image/collections/sleepwear/sl3.jpg";
+import sl4 from "../../assets/image/collections/sleepwear/sl4.jpg";
+import sl5 from "../../assets/image/collections/sleepwear/sl5.jpg";
+import sl6 from "../../assets/image/collections/sleepwear/sl6.jpg";
+import sl7 from "../../assets/image/collections/sleepwear/sl7.jpg";
+import sl8 from "../../assets/image/collections/sleepwear/sl8.jpg";
+
+import k1 from "../../assets/image/collections/knitwear/k1.jpg";
+import k2 from "../../assets/image/collections/knitwear/k2.jpg";
+import k3 from "../../assets/image/collections/knitwear/k3.jpg";
+import k4 from "../../assets/image/collections/knitwear/k4.jpg";
+
+import o1 from "../../assets/image/collections/outerwear/o1.jpg";
+import o2 from "../../assets/image/collections/outerwear/o2.jpg";
+import o3 from "../../assets/image/collections/outerwear/o3.jpg";
+import o4 from "../../assets/image/collections/outerwear/o4.jpg";
+import o5 from "../../assets/image/collections/outerwear/o5.jpg";
+import o6 from "../../assets/image/collections/outerwear/06.jpg";
+import o7 from "../../assets/image/collections/outerwear/o7.jpg";
+import o8 from "../../assets/image/collections/outerwear/o8.jpg";
 
 export const collections = [
   {
@@ -20,7 +42,7 @@ resistant fabrics, include charms that display brand
 name etc.,Whether you need boys' or girls" styles, custom colors or unique details, 
 we provide flexible
 solutions to match your production need.`,
-    photos: [sc1, sc2, sc3, sc4, sc5, sc6, sc7, sc8, sc9],
+    photos: [sc1, sc3, sc4, sc5, sc6, sc7, sc8, sc9],
   },
   {
     title: "SLEEPWEAR",
@@ -32,11 +54,7 @@ our collection come in a range of
 sizes and styles, with options for lightweight materials and easy-care finishes. our
 nightwear combines with elegance and ease, available in a range of fabrics and finishes to suir different seasons and tastes. we provide versatile sleepwear solutions 
 that meet qualtity standards and specific requirements.`,
-    photos: [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg",
-      "https://example.com/image3.jpg",
-    ],
+    photos: [sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8],
   },
   {
     title: "KNITWEAR",
@@ -48,11 +66,7 @@ seasons and preferences with
 attention to details and commitment to
 quality, stylish pieces perfect for school
 uniforms, corparate needs and reatails collections.`,
-    photos: [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg",
-      "https://example.com/image3.jpg",
-    ],
+    photos: [k1, k2, k3, k4],
   },
   {
     title: "OUTERWEAR",
@@ -65,10 +79,6 @@ heavy-duty winter coats, out outwear solutions blend
 functionality with style, delivering quality pieces that
 withstand the elements and keep wearers comfortable
 year-round.`,
-    photos: [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg",
-      "https://example.com/image3.jpg",
-    ],
+    photos: [o1, o2, o3, o4, o5, o6, o7, o8],
   },
 ];
