@@ -45,7 +45,7 @@ const PinBoard = () => {
               <h2 className="text-lg font-bold uppercase text-primary-100">
                 {card.title}
               </h2>
-              <p className="text-gray-100 mt-2 flex-grow">{card.description}</p>
+              <p className="text-gray-100 mt-2 flex-grow text-justify">{card.description}</p>
             </CardBody>
           </Card>
         ))}

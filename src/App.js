@@ -6,10 +6,12 @@ import NavbarDefault from "./templates/Navbar";
 import Footer from "./templates/Footer";
 import ReachUs from "./pages/reach-us/ReachUs";
 import CollectionPage from "./pages/collections/CollectionsPage";
+import ScrollToTop from "./ScrollToTop";
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop/>
         <NavbarDefault />
         <Routes>
           <Route path="/" element={<HomePage />} />

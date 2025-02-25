@@ -35,7 +35,7 @@ const TextSection = ({ section, index }) => {
   return (
     <section key={index} ref={sectionRef} className="py-20  px-4">
       <div className="max-w-5xl mx-auto flex flex-col gap-8">
-        <Typography
+      {index===0?<Typography
           variant="lead"
           className={` min-h-32 text-primary-200 transform transition duration-500 ease-in-out ${
             isTextVisible
@@ -43,8 +43,20 @@ const TextSection = ({ section, index }) => {
               : "opacity-0 translate-y-8"
           }`}
         >
-          {section.description}
+          
+      <strong className=" uppercase text-bold">OY Exports Pvt Ltd</strong> specializes in manufacturing premium garments for private labels, proudly serving clients worldwide from our headquarters in Sri Lanka. With a branch in Bangladesh and a strategic partnership with Unison Apparel Sourcing BD, we connect seamlessly with global buyers and suppliers. Our expertise spans end-to-end product development, helping businesses bring their unique visions to life. Whether launching a new brand or expanding your product line, our dedicated team ensures exceptional support every step of the way..
+          
         </Typography>
+          : <Typography
+          variant="lead"
+          className={` min-h-32 text-primary-200 transform transition duration-500 ease-in-out ${
+            isTextVisible
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-8"
+          }`}
+        >{section.description}
+        </Typography>
+        }
 
         <div
           className={`flex  transform transition duration-500 ease-in-out ${
