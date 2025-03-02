@@ -32,7 +32,7 @@ const StoryImage = ({ image }) => {
       </div>
       <div className="md:flex mx-auto items-center md:max-w-7xl w-full  ">
         <Typography
-          className={image?.textColor + " md:text-lg text-[8px] text-center"}
+          className={image?.textColor + " md:text-lg text-[8px] text-justify"}
         >
           <div className="flex flex-col gap-1">
             {image.alt.split("\n").map((line, index) => (

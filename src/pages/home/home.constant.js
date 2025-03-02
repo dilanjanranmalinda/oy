@@ -1,6 +1,6 @@
 import s1 from "../../assets/image/a1.jpg";
-import s2 from "../../assets/image/a2.jpg";
-import s3 from "../../assets/image/s1.jpg";
+import s2 from "../../assets/image/s2.jpg";
+import s3 from "../../assets/image/s3.jpg";
 
 import v1 from "../../assets/video/hp1.mp4";
 import image2 from "../../assets/image/si5.jpg";
@@ -81,7 +81,7 @@ export const sections = [
 export const sliderImages = [
   {
     src: s1,
-    alt: "Earth-Friendly Fabrics for a Better Tomorrow",
+    alt: `WELCOME to </br> OY EXPORTS PVT LTD`,
     textColor: "text-primary-200",
   },
   {

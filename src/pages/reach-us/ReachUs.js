@@ -46,7 +46,7 @@ function ReachUs() {
             {
               name: "Roshini Hettihewa",
               title: "Senior Merchandiser - Marketing",
-              phone: "+94 77 800 8230",
+              phone: "+94 77 8888 230 ",
               email: "roshi.hettihewa@oyexports.com",
             },
           ].map((person, i) => (
@@ -58,20 +58,27 @@ function ReachUs() {
               viewport={{ once: true }} // Triggers only once
               transition={{ duration: 1, delay: 0.2 }}
             >
-              <h2 className="text-2xl font-semibold">{person.name}</h2>
-              <p className="text-lg text-gray-300">{person.title}</p>
-              <p className="text-lg mt-3 flex items-center justify-center gap-2">
-                <PhoneIcon className="w-5 h-5 text-primary-300" />{" "}
-                <a href={`tel:${person.phone}`} className="hover:underline">
-                  {person.phone}
-                </a>
-              </p>
-              <p className="text-sm md:text-lg flex items-center justify-center gap-2 mt-2">
-                <EnvelopeIcon className="w-5 h-5 text-primary-300" />{" "}
-                <a href={`mailto:${person.email}`} className="hover:underline">
-                  {person.email}
-                </a>
-              </p>
+              <div className="flex  items-center justify-center">
+                {/* <h2 className="text-2xl font-semibold">{person.name}</h2>
+              <p className="text-lg text-gray-300">{person.title}</p> */}
+                <div>
+                  <p className="text-lg mt-3 flex  gap-2">
+                    <PhoneIcon className="w-5 h-5 text-primary-300" />{" "}
+                    <a href={`tel:${person.phone}`} className="hover:underline">
+                      {person.phone}
+                    </a>
+                  </p>
+                  <p className="text-sm md:text-lg flex  gap-2 mt-2">
+                    <EnvelopeIcon className="w-5 h-5 text-primary-300" />{" "}
+                    <a
+                      href={`mailto:${person.email}`}
+                      className="hover:underline"
+                    >
+                      {person.email}
+                    </a>
+                  </p>
+                </div>
+              </div>
             </motion.div>
           ))}
         </div>

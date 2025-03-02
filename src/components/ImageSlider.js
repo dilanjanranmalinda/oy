@@ -36,7 +36,7 @@ const ImageSlider = ({ images, single }) => {
                     : { textShadow: "4px 4px 2px rgba(0, 0, 0, 0.8)" }
                 }
               >
-                {image.alt}
+                <span dangerouslySetInnerHTML={{ __html: image.alt }}></span>
               </Typography>
             </div>
           </div>

@@ -27,7 +27,7 @@ const CollectionPage = () => {
                 >
                   {collection.title}
                 </Typography>
-                <Typography className="text-primary-900 text-center mt-2">
+                <Typography className="text-primary-900 text-justify mt-2">
                   {collection.description}
                 </Typography>
               </motion.div>
