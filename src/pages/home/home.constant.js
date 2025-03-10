@@ -1,6 +1,6 @@
-import s1 from "../../assets/image/a1.jpg";
-import s2 from "../../assets/image/s2.jpg";
-import s3 from "../../assets/image/s3.jpg";
+import s1 from "../../assets/image/s5.jpg";
+import s2 from "../../assets/image/s7.jpg";
+import s3 from "../../assets/image/s10.png";
 
 import v1 from "../../assets/video/hp1.mp4";
 import image2 from "../../assets/image/si5.jpg";
@@ -80,18 +80,33 @@ export const sections = [
 
 export const sliderImages = [
   {
+    posision:"lg:object-top",
+
     src: s1,
+    side:"start",
+
     alt: `WELCOME to </br> OY EXPORTS PVT LTD`,
-    textColor: "text-primary-200",
+    textColor: "text-white",
+    extraCss:"ml-7"
+
   },
   {
+    posision:"lg:object-top object-[10%_45%]",
+
     src: s2,
-    alt: "From City Streets to Mountain Peaks—We've Got You Covered",
-    textColor: "text-primary-200",
+    side:"end",
+
+    alt: "From City Streets <br/>to Mountain Peaks <br/>We've Got You Covered",
+    textColor: "text-white",
+    extraCss:""
+
   },
   {
+    posision:"lg:object-bottom object-[65%_5%]",
     src: s3,
+    side:"start",
     alt: "Indulge in the Luxury of a Perfect Night's Sleep",
-    textColor: "text-primary-200",
+    textColor: "text-white",
+    extraCss:""
   },
 ];
