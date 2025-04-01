@@ -1,9 +1,4 @@
-import {
-  ArrowPathIcon,
-  DocumentTextIcon,
-  GlobeAltIcon,
-  MagnifyingGlassIcon,
-} from "@heroicons/react/16/solid";
+import { GlobeAltIcon, MagnifyingGlassIcon } from "@heroicons/react/16/solid";
 import React from "react";
 
 const JoinUs = () => {
@@ -53,32 +48,6 @@ const JoinUs = () => {
             Our extensive supplier network spans Sri Lanka, Bangladesh, China,
             and India enabling us to offer competitive pricing and high-quality
             products in every category.
-          </p>
-        </div>
-
-        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
-          <ArrowPathIcon className="h-16 w-16 text-yellow-500 mb-4" />
-
-          <h3 class="text-lg font-semibold text-primary-200">
-            Commitment to Sustainability
-          </h3>
-          <p class="mt-2 text-white text-center">
-            We prioritize ethical sourcing and sustainable production practices,
-            ensuring our processes align with today’s standards for
-            environmental and social responsibility.
-          </p>
-        </div>
-
-        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
-          <DocumentTextIcon className="h-16 w-16 text-purple-500 mb-4" />
-
-          <h3 class="text-lg font-semibold text-primary-200 ">
-            Complete Transparency
-          </h3>
-          <p class="mt-2 text-white text-center">
-            We believe in transparent communication and partnership, keeping you
-            informed at each step and tailoring our approach to meet your unique
-            goals.
           </p>
         </div>
       </div>

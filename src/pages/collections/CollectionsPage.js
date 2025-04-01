@@ -1,10 +1,12 @@
 import { Card, CardBody, Typography } from "@material-tailwind/react";
 import { collections } from "./collections.constant";
 import { motion } from "framer-motion";
+import { ArrowPathIcon, DocumentTextIcon } from "@heroicons/react/16/solid";
+import Collection from "./Collection";
 
 const CollectionPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 w-full">
       {collections.map((collection, index) => (
         <motion.div
           key={index}
@@ -32,49 +34,38 @@ const CollectionPage = () => {
                 </Typography>
               </motion.div>
 
-              <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-fr">
-                {collection.photos
-                  .sort(() => Math.random() - 0.5) // Randomize image order
-                  .map((photo, i) => {
-                    const isLastOdd =
-                      collection?.photos?.length % 2 !== 0 &&
-                      i === collection?.photos?.length - 1;
-
-                    return (
-                      <motion.div
-                        key={i}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.4, delay: i * 0.1 }}
-                        whileHover={{ scale: 1.05, rotate: 2 }}
-                        className={`relative overflow-hidden rounded-lg shadow-md 
-                          ${
-                            isLastOdd
-                              ? "col-span-2 md:col-span-4 row-span-1"
-                              : i % 6 === 0
-                              ? "col-span-2 row-span-2"
-                              : i % 4 === 0
-                              ? "row-span-2"
-                              : "col-span-1"
-                          }`}
-                      >
-                        <motion.img
-                          src={photo}
-                          alt={`collection-${i}`}
-                          className="w-full h-full object-cover"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ duration: 0.5 }}
-                        />
-                      </motion.div>
-                    );
-                  })}
-              </div>
+              <Collection collection={collection} key={index} />
             </CardBody>
           </Card>
         </motion.div>
       ))}
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 ">
+        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
+          <ArrowPathIcon className="h-16 w-16 text-yellow-500 mb-4" />
+
+          <h3 class="text-lg font-semibold text-primary-200">
+            Commitment to Sustainability
+          </h3>
+          <p class="mt-2 text-white text-center">
+            We prioritize ethical sourcing and sustainable production practices,
+            ensuring our processes align with today’s standards for
+            environmental and social responsibility.
+          </p>
+        </div>
+
+        <div class="bg-primary-800  rounded-lg p-6 flex flex-col items-center justify-center text-center drop-shadow-sm shadow-primary-300">
+          <DocumentTextIcon className="h-16 w-16 text-purple-500 mb-4" />
+
+          <h3 class="text-lg font-semibold text-primary-200 ">
+            Complete Transparency
+          </h3>
+          <p class="mt-2 text-white text-center">
+            We believe in transparent communication and partnership, keeping you
+            informed at each step and tailoring our approach to meet your unique
+            goals.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -20,6 +20,7 @@ import k1 from "../../assets/image/collections/knitwear/k1.jpg";
 import k2 from "../../assets/image/collections/knitwear/k2.jpg";
 import k3 from "../../assets/image/collections/knitwear/k3.jpg";
 import k4 from "../../assets/image/collections/knitwear/k4.jpg";
+import k5 from "../../assets/image/collections/knitwear/k5.jpg";
 
 import o1 from "../../assets/image/collections/outerwear/o1.jpg";
 import o2 from "../../assets/image/collections/outerwear/o2.jpg";
@@ -66,7 +67,7 @@ seasons and preferences with
 attention to details and commitment to
 quality, stylish pieces perfect for school
 uniforms, corparate needs and reatails collections.`,
-    photos: [k1, k2, k3, k4],
+    photos: [k1, k2, k3, k4, k5],
   },
   {
     title: "OUTERWEAR",
