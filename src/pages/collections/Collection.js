@@ -22,7 +22,7 @@ const Collection = ({ collection }) => {
   };
 
   return (
-    <div className="mt-6 grid grid-cols-4 gap-4">
+    <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-4">
       {photos.map((photo, i) => {
         const remainingPhotos = numPhotos - i;
         const remainingColumns = 4 - (i % 4);
