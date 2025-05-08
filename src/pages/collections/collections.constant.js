@@ -21,6 +21,9 @@ import k2 from "../../assets/image/collections/knitwear/k2.jpg";
 import k3 from "../../assets/image/collections/knitwear/k3.jpg";
 import k4 from "../../assets/image/collections/knitwear/k4.jpg";
 import k5 from "../../assets/image/collections/knitwear/k5.jpg";
+import k7 from "../../assets/image/collections/knitwear/k7.jpg";
+import k8 from "../../assets/image/collections/knitwear/k8.jpg";
+import k6 from "../../assets/image/collections/knitwear/k6.jpg";
 
 import o1 from "../../assets/image/collections/outerwear/o1.jpg";
 import o2 from "../../assets/image/collections/outerwear/o2.jpg";
@@ -34,8 +37,8 @@ import o8 from "../../assets/image/collections/outerwear/o8.jpg";
 export const collections = [
   {
     title: "SCHOOL UNIFORMS",
-    description: `We specialize in manufacturing high quality school wear
-institutes at the moment. from classic styles to special
+    description: `We specialize in manufacturing high quality School Wear
+uniforms at the moment. from classic styles to special
 needs, our expertise covers a wide range of designs, matrials and finishes to create school wear that are
 both durable and comfortable. with options for
 adjustable waist bands, reinforced stitching, wrinkle -
@@ -53,7 +56,7 @@ high quality sleepwear are tailored for comfort and durability,
 using soft, breathable fabrics, our sleepwear provides a cozy fit for a restful night's sleep
 our collection come in a range of 
 sizes and styles, with options for lightweight materials and easy-care finishes. our
-nightwear combines with elegance and ease, available in a range of fabrics and finishes to suir different seasons and tastes. we provide versatile sleepwear solutions 
+nightwear combines with elegance and ease, available in a range of fabrics and finishes to suit different seasons and tastes. we provide versatile sleepwear solutions 
 that meet qualtity standards and specific requirements.`,
     photos: [sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8],
   },
@@ -61,22 +64,21 @@ that meet qualtity standards and specific requirements.`,
     title: "KNITWEAR",
     description: `We manufacture high quality knitwear
 from cozy sweaters and cardigans to vests and 
-winter accessories. we offer a variety 
+winter accessories. We offer a variety 
 of styles, colors and fabric weights to suit different 
 seasons and preferences with 
 attention to details and commitment to
 quality, stylish pieces perfect for school
 uniforms, corparate needs and reatails collections.`,
-    photos: [k1, k2, k3, k4, k5],
+    photos: [k1, k2, k3, k4, k5, k6, k7, k8],
   },
   {
-    title: "OUTERWEAR",
+    title: "CASUAL WEAR",
     description: `We manufacture durable and stylish outerwear,
 designed to provide reliable protection and comfort in
 any weather. Our range includes jackets, coats, casual
-wear etc crafted from premium materials with custom-
-ized options. From lightweight windbreakers to
-heavy-duty winter coats, out outwear solutions blend
+wear etc crafted from premium materials with customized options. From lightweight windbreakers to
+heavy-duty winter coats, outerwear solutions blend
 functionality with style, delivering quality pieces that
 withstand the elements and keep wearers comfortable
 year-round.`,
