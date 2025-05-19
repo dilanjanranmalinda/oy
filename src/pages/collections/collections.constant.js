@@ -37,27 +37,12 @@ import o8 from "../../assets/image/collections/outerwear/o8.jpg";
 export const collections = [
   {
     title: "SCHOOL UNIFORMS",
-    description: `We specialize in manufacturing high quality School Wear
-uniforms at the moment. from classic styles to special
-needs, our expertise covers a wide range of designs, matrials and finishes to create school wear that are
-both durable and comfortable. with options for
-adjustable waist bands, reinforced stitching, wrinkle -
-resistant fabrics, include charms that display brand
-name etc.,Whether you need boys' or girls" styles, custom colors or unique details, 
-we provide flexible
-solutions to match your production need.`,
+    description: `We specialize in manufacturing high quality School Wear uniforms at the moment. From classic styles to special needs, our expertise covers a wide range of designs, materials and finishes to create school wear that are both durable and comfortable. With options for adjustable waist bands, reinforced stitching, wrinkle - resistant fabrics, include charms that display brand name etc., Whether you need boys' or girls" styles, custom colors or unique details, we provide flexible solutions to match your production need.`,
     photos: [sc1, sc3, sc4, sc5, sc6, sc7, sc8, sc9],
   },
   {
     title: "SLEEPWEAR",
-    description: `We proudly manufacture a complete range of sleepwear,
-including pajama sets, nightdresses and dressing gowns. Our
-high quality sleepwear are tailored for comfort and durability,
-using soft, breathable fabrics, our sleepwear provides a cozy fit for a restful night's sleep
-our collection come in a range of 
-sizes and styles, with options for lightweight materials and easy-care finishes. our
-nightwear combines with elegance and ease, available in a range of fabrics and finishes to suit different seasons and tastes. we provide versatile sleepwear solutions 
-that meet qualtity standards and specific requirements.`,
+    description: `We proudly manufacture a complete range of sleepwear, including pajama sets, nightdresses and dressing gowns. Our high quality sleepwear are tailored for comfort and durability, using soft, breathable fabrics, our sleepwear provides a cozy fit for a restful night's sleep our collection come in a range of sizes and styles, with options for lightweight materials and easy-care finishes. Our nightwear combines with elegance and ease, available in a range of fabrics and finishes to suit different seasons and tastes. We provide versatile sleepwear solutions that meet quality standards and specific requirements.`,
     photos: [sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8],
   },
   {

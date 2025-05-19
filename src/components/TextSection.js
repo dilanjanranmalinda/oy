@@ -52,7 +52,7 @@ const TextSection = ({ section, index }) => {
             and suppliers. Our expertise spans end-to-end product development,
             helping businesses bring their unique visions to life. Whether
             launching a new brand or expanding your product line, our dedicated
-            team ensures exceptional support every step of the way..
+            team ensures exceptional support every step of the way.
           </Typography>
         ) : (
           <Typography
